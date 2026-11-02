@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+/* Carousel Banner */
+.banner {
+    max-width: 1200px;
+    height: 450px;
+    margin: 25px auto 50px;
+    overflow: hidden;
+}
+
+.banner .carousel-inner img {
+    height: 450px;
+    object-fit: cover;
+}
+.a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+/* Offcanvas Cart Width */
+#offcanvasExample {
+    width: 35%;
+    height: 100%;
+}
+
+/* Category Section - តម្រូវ Align ឱ្យស្មើ Banner */
+.category-content {
+    max-width: 1200px;
+    margin: 0 auto 50px;
+    width: 100%;
+}
+.category-data > .card{
+    overflow: hidden;
+}
+.category-data > .card > img {
+    width: 100%;
+    height: 400px;   
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.category-data > .card > .category-clothing {
+    width: 100%;
+    height: 808px; 
+    object-fit: cover;
+}
+.category-data:hover > .card > img {
+    transform: scale(1.05);
+
+}
